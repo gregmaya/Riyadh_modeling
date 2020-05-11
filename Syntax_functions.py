@@ -1,3 +1,7 @@
+import geopandas as gpd
+import pandas as pd
+from numpy import log
+
 def Syntax_normalizer(df):
     """
     This function returns normalised Choice and Integration values based on Space Syntax literature.
